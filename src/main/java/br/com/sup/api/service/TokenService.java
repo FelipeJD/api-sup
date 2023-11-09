@@ -3,6 +3,7 @@ package br.com.sup.api.service;
 import br.com.sup.api.models.Credencial;
 import br.com.sup.api.models.Token;
 import br.com.sup.api.models.Usuario;
+
 import br.com.sup.api.repository.UsuarioRepository;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -19,7 +20,7 @@ import java.time.temporal.ChronoUnit;
 public class TokenService {
 
     @Autowired
-    UsuarioRepository usuarioRepository;
+    private UsuarioRepository usuarioRepository;
 
     @Value("${jwt.secret}")
     String secret;

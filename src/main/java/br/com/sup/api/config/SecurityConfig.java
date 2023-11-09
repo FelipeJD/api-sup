@@ -27,6 +27,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         http
             .authorizeHttpRequests()
+                .requestMatchers("/h2-console").permitAll()
             .requestMatchers(HttpMethod.POST, "/api/usuarios/registrar").permitAll()
             .requestMatchers(HttpMethod.POST, "/api/usuarios/login").permitAll()
             .and()
