@@ -38,9 +38,9 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ```js
 {
-    nome: "Douglas Welber",
-    email: 'douglas@gmail.com',
-    senha: "123456789"
+  "nome": "Felipe Jardim",
+  "email": "felipejardim@gmail.com",
+  "senha": "123456"
 }
 ```
 
@@ -105,9 +105,9 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ```js
 {
-    nome: "Manuel Gomes",
-    email: 'usuario@gmail.com',
-    senha: "123456789"
+  "nome": "Felipe Jardim Aguiar Santos",
+  "email": "felipejardim@gmail.com",
+  "senha": "123456789"
 }
 ```
 
@@ -161,11 +161,11 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ```js
 {
-    usuario: 1,
-    nome: "Apple",
-    email: "Apple@apple.com",
-    cargo: "Gerente",
-  },
+  	"usuario": 31,
+    "nome": "Apple",
+    "email": "Apple@apple.com",
+    "cargo": "Gerente"
+}
 ```
 
 **Respostas**
