@@ -34,13 +34,29 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 | email | string | sim         | E-mail do usuário.        |
 | senha | string | sim         | Senha do usuário.         |
 
-**Exemplo corpo da requisição**
+**Exemplos corpo da requisição**
+
+```js
+{
+    nome: "Douglas Welber",
+    email: 'usuario@gmail.com',
+    senha: "123456789"
+}
+```
 
 ```js
 {
   "nome": "Felipe Jardim",
   "email": "felipejardim@gmail.com",
   "senha": "123456"
+}
+```
+
+```js
+{
+    nome: "Manuel Gomes",
+    email: 'usuario@gmail.com',
+    senha: "123456789"
 }
 ```
 
@@ -81,10 +97,10 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
     senha: "123456789"
     },
     {
-    id: 2
-    nome: "Felipe Jardim",
-    email: 'usuario@gmail.com',
-    senha: "123456789"
+    "id": 31,
+    "nome": "Felipe Jardim",
+    "email": "felipejardim@gmail.com",
+    "senha": "123456"
     },
     {
     id: 00256
