@@ -20,7 +20,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
   
 - Empresa
   - [Registrar](#registrar-nova-empresa)
-  - [Encontrar Todos](#encontrar-todas-empresas)
+  - [Encontrar Todos](#encontre-todas-empresas)
   - [Detalhes](#detalhes-da-empresa)
   - [Atualizar](#atualizar-empresa)
   - [Deletar](#deletar-empresa)
