@@ -12,7 +12,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 # SUP! Endpoints
 
 - Usuário
-  - [Registrar](#registrar-novo-usuario)
+  - [Registrar](#registrando-um-novo-usuario)
   - [Encontrar Todos](#encontrar-todos-usuarios)
   - [Detalhes](#detalhes-do-usuario)
   - [Atualizar](#atualizar-usuario)
