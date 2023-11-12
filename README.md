@@ -12,18 +12,18 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 # SUP! Endpoints
 
 - Usuários
-  - [Registrar](#registrando-um-novo-usuário)
-  - [Encontrar Todos](#encontrando-todos-os-usuários)
-  - [Detalhes](#detalhes-do-usuário)
-  - [Atualizar](#atualizando-usuário)
-  - [Deletar](#apagando-usuário)
+  - [POST](#registrando-um-novo-usuário)
+  - [GET ALL](#encontrando-todos-os-usuários)
+  - [GET ID](#detalhes-do-usuário)
+  - [PUT](#atualizando-usuário)
+  - [DELETE](#apagando-usuário)
   
 - Empresa
-  - [Registrar](#registrando-nova-empresa-com-id-do-usuário)
-  - [Encontrar Todos](#encontre-todas-empresas)
-  - [Detalhes](#detalhes-da-empresa)
-  - [Atualizar](#atualizando-empresa)
-  - [Deletar](#apagando-empresa)
+  - [POST](#registrando-nova-empresa-com-id-do-usuário)
+  - [GET ALL](#encontre-todas-empresas)
+  - [GET ID](#detalhes-da-empresa)
+  - [PUT](#atualizando-empresa)
+  - [DELETE](#apagando-empresa)
 
 
 # Usuários
