@@ -1,28 +1,33 @@
 ## Vídeo de apresentação
 (Link do Vídeo Aqui)
 
-## Integrantes
-rm94269 | Douglas Welber - 2TDSS <br/>
-rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
-rm88383 | Felipe Jardim - 2TDST<br/>
-rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
-# Sup Endpoints
+## Integrantes
+rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
+rm94269 | Douglas Welber - 2TDSS <br/>
+rm88383 | Felipe Jardim - 2TDST<br/>
+rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
+
+
+# SUP! Endpoints
 
 - Usuário
   - [Registrar](#registrar-novo-usuario)
-  - [Deletar](#apagar-usuario)
   - [Encontrar Todos](#encontrar-todos-usuarios)
-  - [Atualizar](#atualizar-usuario)
   - [Detalhes](#detalhes-do-usuario)
+  - [Atualizar](#atualizar-usuario)
+  - [Deletar](#apagar-usuario)
+  
 - Empresa
   - [Registrar](#registrar-nova-empresa)
-  - [Deletar](#deletar-empresa)
   - [Encontrar Todos](#encontrar-todas-empresas)
-  - [Atualizar](#atualizar-empresa)
   - [Detalhes](#detalhes-da-empresa)
+  - [Atualizar](#atualizar-empresa)
+  - [Deletar](#deletar-empresa)
 
-# Registrando um novo usuário
+
+# Usuários
+## Registrando um novo usuário
 
 `POST` - /sup/api/usuarios/registrar
 
@@ -69,20 +74,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ---
 
-### Apagando usuário
-
-`DELETE` /sup/api/usuarios/{id}
-
-**Respostas**
-
-| código | descrição                    |
-| ------ | ---------------------------- |
-| 201    | Usuário apagado com sucesso. |
-| 401    | Campos inválidos.            |
-
----
-
-### Encontrando todos usuários
+## Encontrando todos usuários
 
 `GET` /sup/api/usuarios
 
@@ -113,28 +105,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ---
 
-### Atualizando usuário
-
-`PUT` - /sup/api/usuarios/{id}
-
-**Exemplo corpo da requisição**
-
-```js
-{
-  "nome": "Felipe Jardim Aguiar Santos",
-  "email": "felipejardim@gmail.com",
-  "senha": "123456789"
-}
-```
-
-| código | descrição                       |
-| ------ | ------------------------------- |
-| 201    | Usuário atualizado com sucesso. |
-| 401    | Campos inválidos.               |
-
----
-
-### Detalhes do usuário
+## Detalhes do usuário
 
 `GET` - /sup/api/usuarios/{id}
 
@@ -157,9 +128,42 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ---
 
+## Atualizando usuário
+
+`PUT` - /sup/api/usuarios/{id}
+
+**Exemplo corpo da requisição**
+
+```js
+{
+  "nome": "Felipe Jardim Aguiar Santos",
+  "email": "felipejardim@gmail.com",
+  "senha": "123456789"
+}
+```
+
+| código | descrição                       |
+| ------ | ------------------------------- |
+| 201    | Usuário atualizado com sucesso. |
+| 401    | Campos inválidos.               |
+
 ---
 
-# Registrando nova empresa com ID do usuário
+## Apagando usuário
+
+`DELETE` /sup/api/usuarios/{id}
+
+**Respostas**
+
+| código | descrição                    |
+| ------ | ---------------------------- |
+| 201    | Usuário apagado com sucesso. |
+| 401    | Campos inválidos.            |
+
+---
+
+# Empresa
+## Registrando nova empresa com ID do usuário
 
 `POST` - /sup/api/usuarios/addCompany/1
 
@@ -210,20 +214,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ---
 
-### Apagando empresa
-
-`DELETE` /sup/api/empresas/{id}
-
-**Respostas**
-
-| código | descrição                     |
-| ------ | ----------------------------- |
-| 201    | Empresa deletada com sucesso. |
-| 401    | Campos inválidos              |
-
----
-
-### Encontre todas empresas
+## Encontre todas empresas
 
 `GET` /sup/api/empresas
 
@@ -254,7 +245,31 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ---
 
-### Atualizando Empresa
+## Detalhes da empresa
+
+`GET` - /sup/api/empresas/{id}
+
+**Exemplo corpo da requisição (retorno)**
+
+```js
+    {
+        id: 1
+        nome: "Amazon Brasil",
+        email: "Amazon@amazoncontato.com",
+        cargo: "CTO"
+    }
+```
+
+**Respostas**
+
+| código | descrição                                   |
+| ------ | ------------------------------------------- |
+| 201    | Detalhes da empresa resgatados com sucesso. |
+| 401    | Campos inválidos.                           |
+
+---
+
+## Atualizando Empresa
 
 `PUT` - /sup/api/empresas/{id}
 
@@ -276,24 +291,15 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ---
 
-### Detalhes da empresa
+## Apagando empresa
 
-`GET` - /sup/api/empresas/{id}
-
-**Exemplo corpo da requisição (retorno)**
-
-```js
-    {
-        id: 1
-        nome: "Amazon Brasil",
-        email: "Amazon@amazoncontato.com",
-        cargo: "CTO"
-    }
-```
+`DELETE` /sup/api/empresas/{id}
 
 **Respostas**
 
-| código | descrição                                   |
-| ------ | ------------------------------------------- |
-| 201    | Detalhes da empresa resgatados com sucesso. |
-| 401    | Campos inválidos.                           |
+| código | descrição                     |
+| ------ | ----------------------------- |
+| 201    | Empresa deletada com sucesso. |
+| 401    | Campos inválidos              |
+
+---
