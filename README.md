@@ -29,7 +29,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 # Usuários
 ## Registrando um novo usuário
 
-`POST` - sup-rm88383.azurewebsites.net/api/usuarios/registrar
+`POST` - https://sup-rm88383.azurewebsites.net/api/usuarios/registrar
 
 **Campos da requisição**
 
@@ -76,7 +76,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Encontrando todos os usuários
 
-`GET` sup-rm88383.azurewebsites.net/api/usuarios
+`GET` https://sup-rm88383.azurewebsites.net/api/usuarios
 
 **Exemplo corpo da requisição (retorno)**
 
@@ -107,7 +107,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Detalhes do usuário
 
-`GET` - sup-rm88383.azurewebsites.net/api/usuarios/{id}
+`GET` - https://sup-rm88383.azurewebsites.net/api/usuarios/{id}
 
 **Exemplo corpo da requisição (retorno)**
 
@@ -130,7 +130,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Atualizando usuário
 
-`PUT` - sup-rm88383.azurewebsites.net/api/usuarios/{id}
+`PUT` - https://sup-rm88383.azurewebsites.net/api/usuarios/{id}
 
 **Exemplo corpo da requisição**
 
@@ -151,7 +151,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Apagando usuário
 
-`DELETE` sup-rm88383.azurewebsites.net/api/usuarios/{id}
+`DELETE` https://sup-rm88383.azurewebsites.net/api/usuarios/{id}
 
 **Respostas**
 
@@ -165,7 +165,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 # Empresa
 ## Registrando nova empresa com ID do usuário
 
-`POST` - sup-rm88383.azurewebsites.net/api/usuarios/addCompany/1
+`POST` - https://sup-rm88383.azurewebsites.net/api/usuarios/addCompany/1
 
 **Campos da requisição**
 
@@ -216,7 +216,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Encontre todas empresas
 
-`GET` sup-rm88383.azurewebsites.net/api/empresas
+`GET` https://sup-rm88383.azurewebsites.net/api/empresas
 
 **Exemplo corpo da requisição (retorno)**
 
@@ -247,7 +247,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Detalhes da empresa
 
-`GET` - sup-rm88383.azurewebsites.net/api/empresas/{id}
+`GET` - https://sup-rm88383.azurewebsites.net/api/empresas/{id}
 
 **Exemplo corpo da requisição (retorno)**
 
@@ -271,7 +271,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Atualizando Empresa
 
-`PUT` - sup-rm88383.azurewebsites.net/api/empresas/{id}
+`PUT` - https://sup-rm88383.azurewebsites.net/api/empresas/{id}
 
 **Exemplo corpo da requisição**
 
@@ -293,7 +293,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ## Apagando empresa
 
-`DELETE` sup-rm88383.azurewebsites.net/api/empresas/{id}
+`DELETE` https://sup-rm88383.azurewebsites.net/api/empresas/{id}
 
 **Respostas**
 
