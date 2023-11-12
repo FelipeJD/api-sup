@@ -11,19 +11,19 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 # SUP! Endpoints
 
-- Usuário
-  - [Registrar](#registrando-um-novo-usuario)
-  - [Encontrar Todos](#encontrar-todos-usuarios)
-  - [Detalhes](#detalhes-do-usuario)
-  - [Atualizar](#atualizar-usuario)
-  - [Deletar](#apagar-usuario)
+- Usuários
+  - [Registrar](#registrando-um-novo-usuário)
+  - [Encontrar Todos](#encontrando-todos-os-usuários)
+  - [Detalhes](#detalhes-do-usuário)
+  - [Atualizar](#atualizando-usuário)
+  - [Deletar](#apagando-usuário)
   
 - Empresa
-  - [Registrar](#registrar-nova-empresa)
+  - [Registrar](#registrando-nova-empresa-com-id-do-usuário)
   - [Encontrar Todos](#encontre-todas-empresas)
   - [Detalhes](#detalhes-da-empresa)
-  - [Atualizar](#atualizar-empresa)
-  - [Deletar](#deletar-empresa)
+  - [Atualizar](#atualizando-empresa)
+  - [Deletar](#apagando-empresa)
 
 
 # Usuários
@@ -74,7 +74,7 @@ rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
 ---
 
-## Encontrando todos usuários
+## Encontrando todos os usuários
 
 `GET` sup-rm88383.azurewebsites.net/api/usuarios
 
