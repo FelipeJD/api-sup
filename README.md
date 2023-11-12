@@ -86,7 +86,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 `GET` /sup/api/usuarios
 
-**Exemplo corpo da requisição**
+**Exemplo corpo da requisição (retorno)**
 
 ```js
 [
@@ -138,7 +138,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 `GET` - /sup/api/usuarios/{id}
 
-**Exemplo corpo da requisição**
+**Exemplo corpo da requisição (retorno)**
 
 ```js
 {
@@ -227,7 +227,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 `GET` /sup/api/empresas
 
-**Exemplo corpo da requisição**
+**Exemplo corpo da requisição (retorno)**
 
 ```js
 [
@@ -280,7 +280,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 `GET` - /sup/api/empresas/{id}
 
-**Exemplo corpo da requisição**
+**Exemplo corpo da requisição (retorno)**
 
 ```js
     {
