@@ -142,10 +142,9 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ```js
 {
-    id: 00256
-    nome: "Manuel Gomes",
-    email: 'usuario@gmail.com',
-    senha: "123456789",
+  "nome": "Felipe Jardim Aguiar Santos",
+  "email": "felipejardim@gmail.com",
+  "senha": "123456789"
 }
 ```
 
