@@ -176,10 +176,28 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ```js
 {
-  	"usuario": 31,
-    "nome": "Apple",
-    "email": "Apple@apple.com",
-    "cargo": "Gerente"
+    usuario: 31,
+    nome: "Apple",
+    email: "Apple@apple.com",
+    cargo: "Gerente",
+}
+```
+
+```js
+{
+    usuario: 2,
+    nome: "Coca Cola",
+    email: "CocaCola@contato.com",
+    cargo: "Vendedor",
+}
+```
+
+```js
+{
+    usuario: 3,
+    nome: "Amazon",
+    email: "Amazon@amazoncontato.com",
+    cargo: "CTO",
 }
 ```
 
@@ -214,7 +232,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 ```js
 [
   {
-    usuario: 1,
+    usuario: 31,
     nome: "Apple",
     email: "Apple@apple.com",
     cargo: "Gerente",
@@ -244,7 +262,7 @@ rm94265 | Daniel Ferreira dos Santos - 2TDST <br/>
 
 ```js
     {
-        id: 1
+        id: 31
         nome: "Amazon Brasil",
         email: "Amazon@amazoncontato.com",
         cargo: "CTO"
