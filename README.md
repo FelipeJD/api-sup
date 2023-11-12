@@ -8,6 +8,54 @@ rm94269 | Douglas Welber - 2TDSS <br/>
 rm88383 | Felipe Jardim - 2TDST<br/>
 rm94717 | Tarcisio Ferreira Couto - 2TDST<br/>
 
+# Testando a API Spring Boot
+
+## Pré-requisitos
+
+Certifique-se de ter o Insomnia instalado no seu sistema. Você pode baixá-lo [aqui](https://insomnia.rest/download).
+
+## Passos para Testar a API
+
+1. Abra o Insomnia.
+
+2. Importe as configurações da API usando o arquivo Insomnia fornecido no próprio repositório. Ele pode ser identificado como 'Insomnia_2023-09-10.json'.
+
+3. Substitua `localhost:8080` pelo link de produção da API nos endpoints. Mantenha o que estiver após `8080/`. Por exemplo:
+   - De: `localhost:8080/usuarios/registrar`
+   - Para: `https://sup-rm88383.azurewebsites.net/api/usuarios/registrar`
+
+4. Comece registrando um usuário:
+   - Endpoint: `https://sup-rm88383.azurewebsites.net/api/usuarios/registrar`
+   - Método: `POST`
+   - Corpo da Requisição (JSON):
+     ```json
+     {
+       "nome": "Nome do Usuário",
+       "email": "usuario@email.com",
+       "senha": "senha123"
+     }
+     ```
+
+5. Após o registro, faça login para obter um token:
+   - Endpoint: `https://sup-rm88383.azurewebsites.net/api/usuarios/login`
+   - Método: `POST`
+   - Corpo da Requisição (JSON):
+     ```json
+     {
+       "email": "usuario@email.com",
+       "senha": "senha123"
+     }
+     ```
+
+6. Copie o token recebido.
+
+7. Para consumir endpoints privados, adicione o token na área "Bearer Token" no Insomnia.
+
+8. Para acessar endpoints que exigem o ID do usuário ou empresa, inclua o ID no final da URL. Por exemplo:
+   - `https://sup-rm88383.azurewebsites.net/api/usuarios/12`
+
+Lembre-se de adaptar as instruções conforme necessário para refletir os detalhes específicos do seu projeto e da API Spring Boot.
+
 
 # SUP! Endpoints
 
